@@ -43,7 +43,7 @@
     
  原理是`AbstractRoutingDataSource`，配置和DataSourceAutoConfiguration是一致的，每个datasource实例可以覆盖默认配置，mybatis的实例只有一个，所以可以利用上`mybatisAutoconfiguration`，使用`@Datasource`注解来动态切换数据源
  
- ####MultiMybatisConfiguration
+ #### MultiMybatisConfiguration
  
  多个datasource，多个mybatis实例,如果是从多个项目融合到一起的，可以多个mybatis配置共存
  
